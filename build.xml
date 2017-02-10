@@ -1,0 +1,116 @@
+<project name="scotlandyard" basedir="." default="gui">
+
+	<property name="src.dir" value="src" />
+	<property name="build.dir" value="bin" />
+	<property name="test.dir" value="tests" />
+	<property name="classes.dir" value="${build.dir}/classes" />
+	<property name="jar.dir" value="${build.dir}/jar" />
+	<property name="test_classes.dir" value="${build.dir}/tests" />
+	<property name="lib.dir" value="lib" />
+	<property name="test_main" value="TestRunner" />
+    <property name="console_main" value="ConsoleGame" />
+    <property name="gui_main" value="GuiGame" />
+    <property name="judge_main" value="AdminClientService"/>
+    <property name="players_main" value="PlayerService"/>
+
+    <path id="tests_classpath">
+        <fileset dir="${lib.dir}" includes="**/*.jar" />
+        <fileset dir="${jar.dir}" includes="${ant.project.name}.jar" />
+    </path>
+
+	<target name="clean">
+		<delete dir="${build.dir}" />
+	</target>
+
+	<target name="compile">
+		<mkdir dir="${classes.dir}" />
+        <mkdir dir="${jar.dir}"/>
+		<javac srcdir="${src.dir}" includeantruntime="false" destdir="${classes.dir}">
+        <classpath>
+            <pathelement location="${classes.dir}" />
+            <path location="${jar.dir}/${ant.project.name}.jar" />
+            <path refid="tests_classpath" />
+        </classpath>
+        </javac>
+	</target>
+
+	<target name="jar" depends="compile">
+		<jar destfile="${jar.dir}/${ant.project.name}.jar" basedir="${classes.dir}" />
+	</target>
+
+    <target name="gui" depends="jar">
+        <java fork="true" classname="${gui_main}">
+            <classpath>
+                <pathelement location="${classes.dir}" />
+                <path location="${jar.dir}/${ant.project.name}.jar" />
+                <path refid="tests_classpath" />
+            </classpath>
+        </java>
+    </target>
+
+    <target name="players-with" depends="jar">
+        <java fork="true" classname="${players_main}">
+            <arg line="${args}" />
+            <classpath>
+                <pathelement location="${classes.dir}" />
+                <path location="${jar.dir}/${ant.project.name}.jar" />
+                <path refid="tests_classpath" />
+            </classpath>
+        </java>
+    </target>
+
+    <target name="mrx" depends="jar">
+        <java fork="true" classname="${players_main}">
+            <arg line="localhost 8122 black" />
+            <classpath>
+                <pathelement location="${classes.dir}" />
+                <path location="${jar.dir}/${ant.project.name}.jar" />
+                <path refid="tests_classpath" />
+            </classpath>
+        </java>
+    </target>
+
+    <target name="detectives" depends="jar">
+        <java fork="true" classname="${players_main}">
+            <arg line="localhost 8122 blue green red white" />
+            <classpath>
+                <pathelement location="${classes.dir}" />
+                <path location="${jar.dir}/${ant.project.name}.jar" />
+                <path refid="tests_classpath" />
+            </classpath>
+        </java>
+    </target>
+
+    <target name="players" depends="jar">
+        <java fork="true" classname="${players_main}">
+            <arg line="localhost 8122 ab1234 cd5678 ef4321 gh6543 ab1234 cd5678" />
+            <classpath>
+                <pathelement location="${classes.dir}" />
+                <path location="${jar.dir}/${ant.project.name}.jar" />
+                <path refid="tests_classpath" />
+            </classpath>
+        </java>
+    </target>
+
+    <target name="judge-with" depends="jar">
+        <java fork="true" classname="JudgeService">
+            <arg line="${args}" />
+            <classpath>
+                <pathelement location="${classes.dir}" />
+                <path location="${jar.dir}/${ant.project.name}.jar" />
+                <path refid="tests_classpath" />
+            </classpath>
+        </java>
+    </target>
+
+    <target name="judge" depends="jar">
+        <java fork="true" classname="JudgeService">
+            <arg line="localhost 8123 1" />
+            <classpath>
+                <pathelement location="${classes.dir}" />
+                <path location="${jar.dir}/${ant.project.name}.jar" />
+                <path refid="tests_classpath" />
+            </classpath>
+        </java>
+    </target>
+</project>

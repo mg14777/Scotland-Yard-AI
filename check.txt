@@ -1,0 +1,150 @@
+Move Double Black: 159 Secret -> 186 Secret
+Move Double Black: 185 Secret -> 184 Secret
+Move Double Black: 185 Taxi -> 187 Secret
+Move Double Black: 185 Taxi -> 153 Underground
+Move Double Black: 198 Taxi -> 186 Taxi
+Move Double Black: 185 Taxi -> 184 Bus
+Move Double Black: 185 Taxi -> 157 Bus
+Move Double Black: 185 Taxi -> 128 Secret
+Move Double Black: 185 Taxi -> 157 Secret
+Move Double Black: 185 Taxi -> 184 Secret
+Move Double Black: 159 Secret -> 172 Taxi
+Move Double Black: 185 Secret -> 128 Secret
+Move Double Black: 198 Secret -> 199 Taxi
+Move Double Black: 159 Taxi -> 170 Secret
+Move Double Black: 159 Taxi -> 186 Secret
+Move Double Black: 185 Taxi -> 186 Taxi
+Move Double Black: 185 Secret -> 128 Underground
+Move Double Black: 185 Taxi -> 184 Taxi
+Move Double Black: 159 Taxi -> 158 Taxi
+Move Double Black: 198 Secret -> 199 Secret
+Move Double Black: 185 Secret -> 157 Bus
+Move Double Black: 198 Secret -> 187 Secret
+Move Double Black: 185 Secret -> 187 Bus
+Move Double Black: 185 Secret -> 153 Underground
+Move Double Black: 198 Secret -> 186 Secret
+Move Double Black: 198 Taxi -> 199 Secret
+Move Double Black: 198 Secret -> 159 Taxi
+Move Double Black: 159 Secret -> 198 Taxi
+Move Double Black: 185 Secret -> 153 Secret
+Move Double Black: 185 Secret -> 157 Secret
+Move Double Black: 159 Taxi -> 170 Taxi
+Move Double Black: 159 Secret -> 170 Secret
+Move Double Black: 185 Taxi -> 187 Bus
+Move Double Black: 159 Secret -> 158 Secret
+Move Double Black: 198 Secret -> 159 Secret
+Black 185 Secret
+Move Double Black: 185 Secret -> 187 Secret
+Move Double Black: 198 Secret -> 186 Taxi
+Move Double Black: 198 Taxi -> 159 Taxi
+Move Double Black: 185 Secret -> 186 Taxi
+Move Double Black: 198 Taxi -> 186 Secret
+Move Double Black: 159 Taxi -> 172 Taxi
+Black 198 Taxi
+Move Double Black: 198 Taxi -> 199 Taxi
+Move Double Black: 159 Taxi -> 198 Taxi
+Move Double Black: 159 Taxi -> 158 Secret
+Move Double Black: 185 Secret -> 184 Bus
+Move Double Black: 185 Secret -> 170 Taxi
+Move Double Black: 198 Taxi -> 187 Secret
+Move Double Black: 185 Taxi -> 170 Taxi
+Move Double Black: 159 Secret -> 186 Taxi
+Move Double Black: 185 Secret -> 170 Secret
+Move Double Black: 185 Secret -> 184 Taxi
+Move Double Black: 159 Taxi -> 198 Secret
+Move Double Black: 159 Secret -> 170 Taxi
+Black 159 Taxi
+Move Double Black: 159 Taxi -> 172 Secret
+Move Double Black: 198 Taxi -> 187 Taxi
+Black 159 Secret
+Move Double Black: 198 Secret -> 187 Taxi
+Black 198 Secret
+Move Double Black: 185 Taxi -> 170 Secret
+Move Double Black: 159 Secret -> 198 Secret
+Move Double Black: 185 Secret -> 186 Secret
+Black 185 Taxi
+Move Double Black: 159 Secret -> 158 Taxi
+Move Double Black: 185 Taxi -> 128 Underground
+Move Double Black: 185 Taxi -> 186 Secret
+Move Double Black: 198 Taxi -> 159 Secret
+Move Double Black: 159 Secret -> 172 Secret
+Move Double Black: 185 Taxi -> 153 Secret
+Move Double Black: 159 Taxi -> 186 Taxi
+
+
+
+
+Black 159 Taxi
+Black 159 Secret
+Move Double Black: 159 Taxi -> 172 Taxi
+Move Double Black: 159 Secret -> 172 Taxi
+Move Double Black: 159 Taxi -> 172 Secret
+Move Double Black: 159 Secret -> 172 Secret
+Move Double Black: 159 Taxi -> 186 Taxi
+Move Double Black: 159 Secret -> 186 Taxi
+Move Double Black: 159 Taxi -> 186 Secret
+Move Double Black: 159 Secret -> 186 Secret
+Move Double Black: 159 Taxi -> 158 Taxi
+Move Double Black: 159 Secret -> 158 Taxi
+Move Double Black: 159 Taxi -> 158 Secret
+Move Double Black: 159 Secret -> 158 Secret
+Move Double Black: 159 Taxi -> 198 Taxi
+Move Double Black: 159 Secret -> 198 Taxi
+Move Double Black: 159 Taxi -> 198 Secret
+Move Double Black: 159 Secret -> 198 Secret
+Move Double Black: 159 Taxi -> 170 Taxi
+Move Double Black: 159 Secret -> 170 Taxi
+Move Double Black: 159 Taxi -> 170 Secret
+Move Double Black: 159 Secret -> 170 Secret
+Black 185 Taxi
+Black 185 Secret
+Move Double Black: 185 Taxi -> 186 Taxi
+Move Double Black: 185 Secret -> 186 Taxi
+Move Double Black: 185 Taxi -> 186 Secret
+Move Double Black: 185 Secret -> 186 Secret
+Move Double Black: 185 Taxi -> 157 Bus
+Move Double Black: 185 Secret -> 157 Bus
+Move Double Black: 185 Taxi -> 157 Secret
+Move Double Black: 185 Secret -> 157 Secret
+Move Double Black: 185 Taxi -> 184 Taxi
+Move Double Black: 185 Secret -> 184 Taxi
+Move Double Black: 185 Taxi -> 184 Secret
+Move Double Black: 185 Secret -> 184 Secret
+Move Double Black: 185 Taxi -> 184 Bus
+Move Double Black: 185 Secret -> 184 Bus
+Move Double Black: 185 Taxi -> 184 Secret
+Move Double Black: 185 Secret -> 184 Secret
+Move Double Black: 185 Taxi -> 187 Bus
+Move Double Black: 185 Secret -> 187 Bus
+Move Double Black: 185 Taxi -> 187 Secret
+Move Double Black: 185 Secret -> 187 Secret
+Move Double Black: 185 Taxi -> 128 Underground
+Move Double Black: 185 Secret -> 128 Underground
+Move Double Black: 185 Taxi -> 128 Secret
+Move Double Black: 185 Secret -> 128 Secret
+Move Double Black: 185 Taxi -> 170 Taxi
+Move Double Black: 185 Secret -> 170 Taxi
+Move Double Black: 185 Taxi -> 170 Secret
+Move Double Black: 185 Secret -> 170 Secret
+Move Double Black: 185 Taxi -> 153 Underground
+Move Double Black: 185 Secret -> 153 Underground
+Move Double Black: 185 Taxi -> 153 Secret
+Move Double Black: 185 Secret -> 153 Secret
+Black 198 Taxi
+Black 198 Secret
+Move Double Black: 198 Taxi -> 186 Taxi
+Move Double Black: 198 Secret -> 186 Taxi
+Move Double Black: 198 Taxi -> 186 Secret
+Move Double Black: 198 Secret -> 186 Secret
+Move Double Black: 198 Taxi -> 199 Taxi
+Move Double Black: 198 Secret -> 199 Taxi
+Move Double Black: 198 Taxi -> 199 Secret
+Move Double Black: 198 Secret -> 199 Secret
+Move Double Black: 198 Taxi -> 159 Taxi
+Move Double Black: 198 Secret -> 159 Taxi
+Move Double Black: 198 Taxi -> 159 Secret
+Move Double Black: 198 Secret -> 159 Secret
+Move Double Black: 198 Taxi -> 187 Taxi
+Move Double Black: 198 Secret -> 187 Taxi
+Move Double Black: 198 Taxi -> 187 Secret
+Move Double Black: 198 Secret -> 187 Secret
